@@ -48,7 +48,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: "APP_KEY"
-          value: "YmFzZTY0OmNVUG13SHg0TFhhNFoyNUhoekZpV0NmN1RsUW1TcW50OThwbnVpSG16Z1k9Cg=="
+          value: "Y1VQbXdIeDRMWGE0WjI1SGh6RmlXQ2Y3VGxRbVNxbnQ5OHBudWlIbXpnWT0K"
         ports:
         - name: web
           containerPort: 8080
