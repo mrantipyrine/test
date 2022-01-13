@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: antipyrine/test:hello-world-1
+        image: argoproj/rollouts-demo:blue
         imagePullPolicy: Always
         ports:
         - name: web
