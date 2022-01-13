@@ -49,7 +49,6 @@ spec:
         env: 
         - name: "APP_KEY"
           value: "base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY="
-
         ports:
         - name: web
           containerPort: 8080
