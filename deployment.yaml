@@ -44,8 +44,12 @@ spec:
     spec:
       containers:
       - name: demo
-        image: argoproj/rollouts-demo:blue
+        image: antipyrine/test:hello-world-1
         imagePullPolicy: Always
+        env: 
+        - name: "APP_KEY"
+          value: "base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY="
+
         ports:
         - name: web
           containerPort: 8080
