@@ -47,11 +47,11 @@ spec:
         image: antipyrine/test:hello-world-1
         imagePullPolicy: Always
         env:
-        - name: "APP_KEY"
+        - name: APP_KEY
           value: "Y1VQbXdIeDRMWGE0WjI1SGh6RmlXQ2Y3VGxRbVNxbnQ5OHBudWlIbXpnWT0K"
         ports:
         - name: web
-          containerPort: 8080
+          containerPort: 80
         resources:
           requests:
             memory: "64Mi"
@@ -67,7 +67,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: 8080
+    targetPort: 80
   selector:
     app: demo
   type: ClusterIP
