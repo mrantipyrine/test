@@ -47,7 +47,7 @@ spec:
         image: antipyrine/test:hello-world-1
         imagePullPolicy: Always
         env:
-        - name "APP_KEY"
+        - name: "APP_KEY"
           value: "YmFzZTY0OmNVUG13SHg0TFhhNFoyNUhoekZpV0NmN1RsUW1TcW50OThwbnVpSG16Z1k9Cg=="
         ports:
         - name: web
