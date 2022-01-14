@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: antipyrine/test:hello-world-1
+        image: antipyrine/test:hello-world-2
         imagePullPolicy: Always
         ports:
         - name: web
