@@ -48,11 +48,11 @@ spec:
         imagePullPolicy: Always
         ports:
         - name: web
-          containerPort: 80
+          containerPort: 8080
         resources:
           requests:
             memory: "64Mi"
-            cpu: "110m"
+            cpu: "100m"
           limits:
             memory: "128Mi"
             cpu: "140m"
@@ -64,7 +64,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: 80
+    targetPort: 8080
   selector:
     app: demo
   type: ClusterIP
@@ -76,7 +76,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: 80
+    targetPort: 8080
   selector:
     app: demo
   type: ClusterIP
